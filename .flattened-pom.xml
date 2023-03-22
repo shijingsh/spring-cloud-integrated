@@ -4,15 +4,17 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.alibaba.cloud</groupId>
-    <artifactId>spring-cloud-alibaba-examples</artifactId>
+    <artifactId>spring-cloud-alibaba</artifactId>
     <version>2022.0.0.0-RC2</version>
+    <relativePath>/</relativePath>
   </parent>
   <groupId>com.alibaba.cloud</groupId>
-  <artifactId>integrated-common</artifactId>
+  <artifactId>spring-cloud-alibaba-examples</artifactId>
   <version>2022.0.0.0-RC2</version>
-  <name>Spring Cloud Alibaba Integrated Common Example</name>
+  <packaging>pom</packaging>
+  <name>Spring Cloud Alibaba Examples</name>
   <description>Example showing how to use features of Spring Cloud Alibaba</description>
-  <url>https://github.com/alibaba/spring-cloud-alibaba/spring-cloud-alibaba-examples/integrated-common</url>
+  <url>https://github.com/alibaba/spring-cloud-alibaba/spring-cloud-alibaba-examples</url>
   <organization>
     <name>Pivotal Software, Inc.</name>
     <url>https://www.spring.io</url>
@@ -63,8 +65,8 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/alibaba/spring-cloud-alibaba.git/spring-cloud-alibaba-examples/integrated-common</connection>
-    <developerConnection>scm:git:ssh://git@github.com/alibaba/spring-cloud-alibaba.git/spring-cloud-alibaba-examples/integrated-common</developerConnection>
-    <url>https://github.com/alibaba/spring-cloud-alibaba/spring-cloud-alibaba-examples/integrated-common</url>
+    <connection>scm:git:git://github.com/alibaba/spring-cloud-alibaba.git/spring-cloud-alibaba-examples</connection>
+    <developerConnection>scm:git:ssh://git@github.com/alibaba/spring-cloud-alibaba.git/spring-cloud-alibaba-examples</developerConnection>
+    <url>https://github.com/alibaba/spring-cloud-alibaba/spring-cloud-alibaba-examples</url>
   </scm>
 </project>

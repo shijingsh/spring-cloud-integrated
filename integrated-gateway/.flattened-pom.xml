@@ -6,14 +6,13 @@
     <groupId>com.alibaba.cloud</groupId>
     <artifactId>spring-cloud-alibaba-examples</artifactId>
     <version>2022.0.0.0-RC2</version>
-    <relativePath>../../pom.xml</relativePath>
   </parent>
   <groupId>com.alibaba.cloud</groupId>
   <artifactId>integrated-gateway</artifactId>
   <version>2022.0.0.0-RC2</version>
   <name>Spring Cloud Alibaba Integrated Gateway Example</name>
   <description>Example showing how to use features of Spring Cloud Alibaba</description>
-  <url>https://github.com/alibaba/spring-cloud-alibaba/spring-cloud-alibaba-examples/integrated-example/integrated-gateway</url>
+  <url>https://github.com/alibaba/spring-cloud-alibaba/spring-cloud-alibaba-examples/integrated-gateway</url>
   <organization>
     <name>Pivotal Software, Inc.</name>
     <url>https://www.spring.io</url>
@@ -64,9 +63,9 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/alibaba/spring-cloud-alibaba.git/spring-cloud-alibaba-examples/integrated-example/integrated-gateway</connection>
-    <developerConnection>scm:git:ssh://git@github.com/alibaba/spring-cloud-alibaba.git/spring-cloud-alibaba-examples/integrated-example/integrated-gateway</developerConnection>
-    <url>https://github.com/alibaba/spring-cloud-alibaba/spring-cloud-alibaba-examples/integrated-example/integrated-gateway</url>
+    <connection>scm:git:git://github.com/alibaba/spring-cloud-alibaba.git/spring-cloud-alibaba-examples/integrated-gateway</connection>
+    <developerConnection>scm:git:ssh://git@github.com/alibaba/spring-cloud-alibaba.git/spring-cloud-alibaba-examples/integrated-gateway</developerConnection>
+    <url>https://github.com/alibaba/spring-cloud-alibaba/spring-cloud-alibaba-examples/integrated-gateway</url>
   </scm>
   <dependencies>
     <dependency>
