@@ -28,7 +28,7 @@ import org.springframework.messaging.Message;
 @Configuration
 public class ListenerAutoConfiguration {
 	@Bean
-	public Consumer<Message<PraiseMessage>> consumer(PraiseService praiseService) {
+	public Consumer<Message<PraiseMessage>> praise(PraiseService praiseService) {
 		return msg -> {
 			praiseService.praiseItem(msg.getPayload().getItemId());
 		};

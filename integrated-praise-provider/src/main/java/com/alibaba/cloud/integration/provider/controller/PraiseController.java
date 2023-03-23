@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/praise")
 public class PraiseController {
-	private static final String BINDING_NAME = "praise-output";
+	private static final String BINDING_NAME = "praise-out-0";
 	@Autowired
 	private StreamBridge streamBridge;
 
